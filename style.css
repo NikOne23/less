@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.foto {
+    padding: 50px 495px 138px;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto2 {
+    width: 1110;
+    height: 450px;
+    flex-shrink: 0;
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.links{ 
+    padding: 280px 250px 0px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 811px; 
+    height: 29px;
+    padding-top: 80px;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.nav-box{
+    justify-content: space-around;
+    padding-top: 30px;
+    display: flex;
+}
+
+.nav-box-right{
+    width: 650px;
+    height: 500px;
+    flex-shrink: 0;
+    background: var(--grey, #F0F0F0);
+}
+
+.nav-box-left{
+    width: 350px;
+    height: 500px;
+    flex-shrink: 0;
+    background: var(--grey, #F0F0F0);
+}
+
+
+.nav-box-right h4{
+    padding: 50px 170px 0px 0px;
+    color: #4581B7;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-box-left h4{
+    padding: 50px 160px 10px 0px;
+    color: #4581B7;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.textt2{
+    padding: 10px 85px 50px 11px;
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+ 
+}
+
+.textt3{
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    padding: 10px;
+}
+
+.textt4{
+    padding: 10px;
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+.textt1{
+    padding: 20px 40px 95px 51px;
+    width: 595px;
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+
+
+.final-box{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+}
+
+.final-box p{
+    padding-top: 20px;
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.final-box img{
+    padding: 10%;
+    text-align: start;
+}
